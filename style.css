@@ -1,0 +1,35 @@
+body {
+  margin: 20px;
+}
+
+.card {
+  width: 400px;
+  border: 3px solid #0096c7;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-around;
+  background: #ff477e;
+  color: #ffea00;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  text-align: center;
+  padding: 20px;
+  border-bottom: 5px solid #a63c06;
+  margin: 0 auto;
+  box-shadow: 5px 10px #888888;
+  animation-name: movement;
+  animation-duration: 10s;
+}
+
+.img {
+  width: 150px;
+  height: 150px;
+}
+@keyframes movement {
+  from {
+    background-color: red;
+  }
+  to {
+    background-color: yellow;
+  }
+}
